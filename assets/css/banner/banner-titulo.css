@@ -8,5 +8,17 @@
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo{
+        font-size: 3rem ;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .banner__titulo{
+        font-size: 5.0625rem;
+    }
 }
